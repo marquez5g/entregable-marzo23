@@ -1,10 +1,8 @@
-//Este componente deberia recibir por props y mostrar en pantalla la informacion
-//que envia el usuario
 
-function Card() {
+function Card({myName, aboutMe}) {
   return (
-    <div>
-      <h2>Esto es un componente</h2>
+    <div className="card">
+      <p>Tu nombre es {myName}. Un poco sobre ti: {aboutMe}</p>
     </div>
   );
 }

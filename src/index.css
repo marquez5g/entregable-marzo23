@@ -1,0 +1,62 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+}
+form {
+    display: flex;
+}
+input {
+    border-radius: 1rem;
+    border-style: dashed;
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+.myName {
+    width:10rem;
+}
+
+.aboutMe {
+    width: 30rem;
+    height: 5rem;
+}
+
+button {
+    margin: 3rem;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: white;
+}
+
+button:hover {
+    background-color: #313131;
+    color: white;
+}
+
+.card {
+    margin: 0 3rem;
+    padding: 1rem;
+    border-style: dashed;
+}
+
+.error {
+    border-color: crimson;
+    border-style: dashed;
+    margin: 0 3rem;
+    padding: 1rem;
+}
